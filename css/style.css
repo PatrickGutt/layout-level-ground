@@ -1,0 +1,307 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+
+.icon:before {
+  display: inline-block;
+  font: var(--fa-font-solid);
+}
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  font-family: 'Oswald', sans-serif;
+}
+.container {
+  
+  width: 1000px;
+  margin: 0 auto;
+}
+.center {
+  text-align: center;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.btn {
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #f1f1f1;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 40px;
+  line-height: 40px;
+}
+.main h1, .module-1 h2, .module-2 h3, .module-3 h2 {
+  text-transform: uppercase;
+}
+.background-header {
+  background: #66768a;
+  height: 60px;
+}
+.background-main {
+  background: #66768a;
+
+}
+.background-module-1 {
+  background: #ffffff;
+ 
+}
+.background-module-2 {
+  background: #dbdfe2;
+}
+.background-module-3 {
+  background: #ffffff;
+
+}
+.background-footer {
+  background: #161f2a;
+  height: 300px;
+}
+.main {
+  color: #f1f1f1;
+}
+
+.logo {
+  display: block;
+  background: url(logo.png);
+  background-size: cover;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+.donate {
+  display: block;
+  color: #66768a;
+  background: #f1f1f1;
+  border-radius: 5px;
+  width: 70px;
+  height: 30px;
+  line-height: 30px;
+}
+.hire {
+  margin-left: 25px;
+}
+.nav-bar {
+  height: 60px;
+}
+
+.main h1 {
+  font-size: 72px;
+  font-weight: 500;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.main p {
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 300;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+.main a {
+  display: block;
+  text-decoration: none;
+  font-size: 20px;
+  color: #f1f1f1;
+  font-weight: 200;
+  margin-top: 50px;
+  padding-bottom: 100px;
+  letter-spacing: 1px;
+}
+
+.main a:before {
+  content: "\f144";
+  margin-right: 10px;
+  font-size: larger;
+}
+
+.module-1 h2, .module-3 h2 {
+  font-size: 36px;
+  font-weight: 500;
+  color: #161f2a;
+  padding-top: 100px;
+  padding-bottom: 25px;
+}
+
+.module-1 p, .module-3 p {
+  font-size: 18px;
+  line-height: 32px;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+.module-1 p {
+  padding-bottom: 100px;
+}
+.module-3 p {
+  padding-bottom: 25px;
+}
+
+.module-2 > section {
+  float: left;
+  width: 50%;
+}
+
+.picture {
+  background: #66768a;
+  height: 150px;
+  width: 275px;
+  margin: 0 auto;
+  margin-top: 100px;
+  box-shadow: 1px 1px 3px #161f2a;
+}
+
+.module-2-content > * {
+  display: block;
+  margin-top: 25px;
+  color: #161f2a;
+}
+
+.module-2-content p {
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-bottom: 25px;
+  line-height: 22px;
+}
+.module-2-content h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+.module-2-content a, .module-3 a { 
+  color: #161f2a;
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 1px solid #979797;
+  width: 150px;
+  height: 50px;
+  margin: 0 auto;
+  border-radius: 5px;
+  line-height: 50px;
+  font-weight: 500;
+  font-size: 14px;
+
+}
+.module-2-content {
+  padding-bottom: 100px;
+}
+.module-3 {
+  padding-bottom: 100px;
+}
+
+.bottom-btn {
+  display: block;
+  text-decoration: none;
+  color: white;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.twitter {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.item {
+  float: left;
+}
+
+.bottom-logo {
+  border-top: 1px solid white;
+  color: white;
+}
+
+.bottom-logo p {
+  height: 40px;
+  width: 900px;
+  line-height: 40px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.bottom-logo a {
+  display: block;
+  background: url(logo.png);
+  background-size: cover;
+  height: 40px;
+  width: 40px;
+  margin-top: 10px;
+}
+.map-title {
+  color: #5e6d81;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.map {
+  float: left;
+  display: block;
+  margin-bottom: 25px;
+  margin-right: 25px;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+
+.contact {
+  margin-top: 35px;
+}
+
+.contact h4 {
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+}
+.contact h4 + h4 {
+  padding-bottom: 15px;
+}
+
+.contact li {
+  font-size: 14px;
+  font-weight: 200;
+  color: white;
+  padding-bottom: 5px;
+}
+
+.contact a {
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+}
